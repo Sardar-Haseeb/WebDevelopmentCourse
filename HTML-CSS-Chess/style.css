@@ -1,0 +1,44 @@
+/* Reset default browser spacing so the chess board renders consistently */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main container around the entire page content */
+.Chess-Main-Container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+}
+
+/* Wrapper for the chess board itself */
+.Chess-Borad {
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 5px;
+}
+
+/* Each row is a horizontal flex container for eight squares */
+.Chess-Borad-Rows {
+    display: flex;
+}
+
+/* Styling for a white square on the board */
+.white {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Styling for a black square on the board */
+.black {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
