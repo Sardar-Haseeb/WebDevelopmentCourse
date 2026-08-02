@@ -1,0 +1,63 @@
+/* Global reset: remove default padding and margin for all elements */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main container: full viewport height, centers content horizontally and vertically */
+.Main-Container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container: card-like box with shadow, padding and vertical layout */
+.Form-Container {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.131);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inner form styling: border, padding and column layout for fields */
+.Form-Container form {
+    border: 1px solid rgba(245, 222, 179, 0.389);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Each form row stacks its label and control vertically */
+.Form-Row {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Label typography for form fields */
+.Form-Row label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Common styles for text inputs and textareas */
+.Form-Row input,
+.Form-Row textarea {
+    border: 1px solid rgba(0, 0, 0, 0.218);
+    border-radius: 5px;
+}
+
+/* Submit button appearance */
+.Form-Row button{
+    background-color: black;
+    border: none;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
