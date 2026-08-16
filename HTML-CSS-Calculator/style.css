@@ -1,0 +1,74 @@
+/* Universal selector to reset default browser padding and margin */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main container styling for centering the calculator on the page */
+.Main-Container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to full viewport height */
+    background-color: whitesmoke; /* Light gray background color */
+
+}
+
+/* Calculator body container styling */
+.Calc-Body {
+    background-color: white; /* White background for the calculator body */
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.145); /* Add shadow for depth effect */
+    padding: 10px; /* Add internal spacing */
+    border-radius: 10px; /* Round corners of the calculator */
+}
+
+/* Input field styling for the calculator display screen */
+.Calc-Screen input {
+    text-align: right; /* Align text to the right in the input field */
+    border: none; /* Remove default input border */
+    background-color: whitesmoke; /* Light gray background for the screen */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.145); /* Add subtle shadow */
+    border-radius: 20px; /* Round corners of the input field */
+    padding: 5px; /* Add internal padding */
+    height: 40px; /* Set height of the input field */
+}
+
+/* Styling for input field when it's focused (active) */
+.Calc-Screen input:focus {
+    outline: none; /* Remove default focus outline */
+    border: none; /* Ensure no border appears on focus */
+}
+
+/* Container for all calculator buttons */
+.Calc-Btns {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add space between button rows */
+    margin-top: 20px; /* Add space above buttons */
+}
+
+/* Styling for each row of calculator buttons */
+.Calc-Btns-Row {
+    width: 100%; /* Make row take full width */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+    gap: 10px; /* Add space between individual buttons */
+}
+
+/* Styling for individual calculator buttons */
+.Calc-Btns-Row button {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.145); /* Add subtle shadow to buttons */
+    width: 25%; /* Set button width to 25% of row */
+    text-align: center; /* Center text inside button */
+    border-radius: 20px; /* Round corners of the button */
+    padding: 10px; /* Add internal padding to button */
+    border: none; /* Remove default button border */
+    background-color: white; /* White background for buttons */
+    font-weight: 600; /* Make button text bold */
+}
+
+/* Styling for button when hovering over it */
+.Calc-Btns-Row button:hover {
+    background-color: wheat; /* Change button color to wheat/tan on hover */
+}
