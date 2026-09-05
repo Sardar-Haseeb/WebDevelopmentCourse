@@ -1,0 +1,89 @@
+<!-- Declares this document as HTML5. -->
+<!DOCTYPE html>
+<!-- Starts the page and declares English as its language. -->
+<html lang="en">
+
+<!-- Contains metadata and linked resources for the page. -->
+<head>
+    <!-- Sets the character encoding to UTF-8. -->
+    <meta charset="UTF-8">
+    <!-- Makes the layout responsive on different screen sizes. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the browser tab title. -->
+    <title>Wizard Form</title>
+    <!-- Loads the shared stylesheet. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Opens a connection to the Google Fonts service. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Opens a connection to the Google Fonts static file service. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Loads the Montserrat font family. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+<!-- Closes the metadata section. -->
+</head>
+
+<!-- Contains all visible page content. -->
+<body>
+    <!-- Centers the wizard form on the page. -->
+    <div class="Main-Container">
+        <!-- Defines the third step of the wizard. -->
+        <form class="Step-One">
+            <!-- Displays the title for the address step. -->
+            <h2>Enter your Address</h2>
+            <!-- Groups the address field and navigation links. -->
+            <div class="Info">
+                <!-- Provides spacing before the address field. -->
+              
+                 <!-- Groups the address label and textarea. -->
+                 <div>
+                    <!-- Labels the address field. -->
+                    <label>
+                        <!-- Displays the address label text. -->
+                        Address
+                    <!-- Closes the address label. -->
+                    </label>
+                    <!-- Collects the user's address. -->
+                    <textarea name="" id=""></textarea>
+                <!-- Closes the address field group. -->
+                </div>
+                 <!-- Groups the navigation links. -->
+                 <span>
+                    <!-- Returns the user to the second wizard step. -->
+                    <a href="./StepTwo.html">Back</a>
+                    <!-- Calls the finish function when clicked. -->
+                    <a href="" onclick="finish()">Finish</a>
+                <!-- Closes the navigation group. -->
+                </span>
+            <!-- Closes the information group. -->
+            </div>
+            <!-- Displays the wizard progress indicators. -->
+            <div class="Pages-Section">
+                <!-- Displays the first inactive step indicator. -->
+                <span class="dots "></span>
+                <!-- Displays the second inactive step indicator. -->
+                <span class="dots "></span>
+                <!-- Marks the third step as active. -->
+                <span class="dots active"></span>
+            <!-- Closes the progress indicator section. -->
+            </div>
+        <!-- Closes the third-step form. -->
+        </form>
+    <!-- Closes the main page container. -->
+    </div>
+<!-- Closes the visible page content. -->
+</body>
+
+<!-- Contains the page's JavaScript behavior. -->
+<script>
+    // Defines the function used to finish the wizard.
+    function finish(){
+        // Displays a confirmation message after submission.
+        alert("Your Info is submitted")
+    // Closes the finish function.
+    }
+// Closes the JavaScript block.
+</script>
+
+<!-- Closes the HTML document. -->
+</html>

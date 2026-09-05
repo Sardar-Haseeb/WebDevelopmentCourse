@@ -1,0 +1,112 @@
+/* Selects every element on the page. */
+* {
+    /* Removes default inner spacing. */
+    padding: 0px;
+    /* Removes default outer spacing. */
+    margin: 0px;
+}
+
+/* Styles the page body. */
+body {
+    /* Applies the Montserrat font to the page. */
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+/* Styles the main wizard container. */
+.Main-Container {
+    /* Adds a one-pixel border around the container. */
+    border: 1px solid;
+    /* Makes the container span the full available width. */
+    width: 100%;
+    /* Makes the container fill the viewport height. */
+    height: 100vh;
+    /* Enables flexbox layout. */
+    display: flex;
+    /* Centers the form horizontally. */
+    justify-content: center;
+    /* Centers the form vertically. */
+    align-items: center;
+}
+
+/* Styles each wizard step form. */
+.Step-One {
+    /* border: 1px solid; */
+    /* Adds inner spacing around the form content. */
+    padding: 10px;
+    /* Rounds the form corners. */
+    border-radius: 10px;
+    /* Gives the form a light background. */
+    background-color: whitesmoke;
+}
+
+/* Styles the information and navigation area. */
+.Info {
+    /* Enables flexbox layout for the information area. */
+    display: flex;
+    /* Arranges the children vertically. */
+    flex-direction: column;
+    /* Adds space between the children. */
+    gap: 10px;
+    /* Adds space above the information area. */
+    margin-top: 20px;
+}
+
+/* Styles each field group inside the information area. */
+.Info div {
+    /* Enables flexbox layout for each field group. */
+    display: flex;
+    /* Stacks each label above its control. */
+    flex-direction: column;
+}
+
+/* Styles the wizard progress indicator section. */
+.Pages-Section {
+    /* border: 1px solid; */
+    /* Enables flexbox layout for the indicators. */
+    display: flex;
+    /* Centers the indicators horizontally. */
+    justify-content: center;
+    /* Makes the section span the available width. */
+    width: 100%;
+    /* Adds space between indicators. */
+    gap: 5px;
+    /* Adds space above the indicators. */
+    margin-top: 10px;
+}
+
+/* Styles each progress indicator dot. */
+.Pages-Section .dots {
+    /* Sets the dot width. */
+    width: 10px;
+    /* Sets the dot height. */
+    height: 10px;
+    /* Gives inactive dots an aqua color. */
+    background-color: aqua;
+    /* Makes the dots circular. */
+    border-radius: 100px;
+
+}
+
+/* Styles the currently active progress indicator. */
+.Pages-Section .active {
+    /* Gives the active dot a red color. */
+    background-color: red;
+}
+
+/* Styles the navigation links. */
+.Info span a {
+    /* Adds a one-pixel border around each link. */
+    border: 1px solid black;
+    /* Removes the default link underline. */
+    text-decoration: none;
+    /* Sets the link text color. */
+    color: black;
+    /* Adds inner spacing around the link text. */
+    padding: 2px;
+    /* Rounds the link corners. */
+    border-radius: 5px;
+    /* Gives the links a white background. */
+    background-color: white;
+}

@@ -1,0 +1,82 @@
+<!-- Declares this document as HTML5. -->
+<!DOCTYPE html>
+<!-- Starts the page and declares English as its language. -->
+<html lang="en">
+
+<!-- Contains metadata and linked resources for the page. -->
+<head>
+    <!-- Sets the character encoding to UTF-8. -->
+    <meta charset="UTF-8">
+    <!-- Makes the layout responsive on different screen sizes. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the browser tab title. -->
+    <title>Wizard Form</title>
+    <!-- Loads the shared stylesheet. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Opens a connection to the Google Fonts service. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Opens a connection to the Google Fonts static file service. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Loads the Montserrat font family. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+<!-- Closes the metadata section. -->
+</head>
+
+<!-- Contains all visible page content. -->
+<body>
+    <!-- Centers the wizard form on the page. -->
+    <div class="Main-Container">
+        <!-- Defines the second step of the wizard. -->
+        <form class="Step-One">
+            <!-- Displays the title for the contact step. -->
+            <h2>Enter your Email</h2>
+            <!-- Groups the fields and navigation links. -->
+            <div class="Info">
+
+
+                <!-- Groups the email label and input. -->
+                <div>
+                    <!-- Labels the email field. -->
+                    <label>Email</label>
+                    <!-- Collects the user's email address. -->
+                    <input type="text" name="" id="">
+                <!-- Closes the email field group. -->
+                </div>
+                <!-- Groups the phone label and input. -->
+                <div>
+                    <!-- Labels the phone field. -->
+                    <label>Phone</label>
+                    <!-- Collects the user's phone number. -->
+                    <input type="text" name="" id="">
+                <!-- Closes the phone field group. -->
+                </div>
+                <!-- Groups the navigation links. -->
+                <span>
+                    <!-- Returns the user to the first wizard step. -->
+                    <a href="./index.html">Back</a>
+                    <!-- Moves the user to the third wizard step. -->
+                    <a href="./StepThree.html">Next</a>
+                <!-- Closes the navigation group. -->
+                </span>
+            <!-- Closes the information group. -->
+            </div>
+            <!-- Displays the wizard progress indicators. -->
+            <div class="Pages-Section">
+                <!-- Displays the first inactive step indicator. -->
+                <span class="dots "></span>
+                <!-- Marks the second step as active. -->
+                <span class="dots active"></span>
+                <!-- Displays the third inactive step indicator. -->
+                <span class="dots "></span>
+            <!-- Closes the progress indicator section. -->
+            </div>
+        <!-- Closes the second-step form. -->
+        </form>
+    <!-- Closes the main page container. -->
+    </div>
+<!-- Closes the visible page content. -->
+</body>
+
+<!-- Closes the HTML document. -->
+</html>

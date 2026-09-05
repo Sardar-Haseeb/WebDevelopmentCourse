@@ -1,0 +1,78 @@
+<!-- Declares this document as HTML5. -->
+<!DOCTYPE html>
+<!-- Starts the page and declares English as its language. -->
+<html lang="en">
+
+<!-- Contains metadata and linked resources for the page. -->
+<head>
+    <!-- Sets the character encoding to UTF-8. -->
+    <meta charset="UTF-8">
+    <!-- Makes the layout responsive on different screen sizes. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the browser tab title. -->
+    <title>Wizard Form</title>
+    <!-- Loads the shared stylesheet. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Opens a connection to the Google Fonts service. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Opens a connection to the Google Fonts static file service. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Loads the Montserrat font family. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+<!-- Closes the metadata section. -->
+</head>
+
+<!-- Contains all visible page content. -->
+<body>
+    <!-- Centers the wizard form on the page. -->
+    <div class="Main-Container">
+        <!-- Defines the first step of the wizard. -->
+        <form class="Step-One">
+            <!-- Displays the title for the name step. -->
+            <h2>Name Details</h2>
+            <!-- Groups the fields and navigation link. -->
+            <div class="Info">
+                <!-- Groups the first-name label and input. -->
+                <div>
+                    <!-- Labels the first-name field. -->
+                    <label>First Name</label>
+                    <!-- Collects the user's first name. -->
+                    <input type="text" name="" id="">
+                <!-- Closes the first-name field group. -->
+                </div>
+                <!-- Groups the last-name label and input. -->
+                <div>
+                    <!-- Labels the last-name field. -->
+                    <label>Last Name</label>
+                    <!-- Collects the user's last name. -->
+                    <input type="text" name="" id="">
+                <!-- Closes the last-name field group. -->
+                </div>
+                <!-- Groups the navigation link. -->
+                <span>
+                    <!-- Moves the user to the second wizard step. -->
+                    <a href="./StepTwo.html">Next</a>
+                <!-- Closes the navigation group. -->
+                </span>
+            <!-- Closes the information group. -->
+            </div>
+            <!-- Displays the wizard progress indicators. -->
+            <div class="Pages-Section">
+                <!-- Marks the first step as active. -->
+                <span class="dots active"></span>
+                <!-- Displays the second inactive step indicator. -->
+                <span class="dots"></span>
+                <!-- Displays the third inactive step indicator. -->
+                <span class="dots"></span>
+            <!-- Closes the progress indicator section. -->
+            </div>
+        <!-- Closes the first-step form. -->
+        </form>
+    <!-- Closes the main page container. -->
+    </div>
+<!-- Closes the visible page content. -->
+</body>
+
+<!-- Closes the HTML document. -->
+</html>
