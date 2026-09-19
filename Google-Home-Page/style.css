@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Main-Container {
+    background-color: rgb(30, 30, 30);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Google-Header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.Google-Header span p:hover {
+    border-bottom: 1px solid;
+}
+
+.Google-Header span svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.Google-Header svg {
+    /* border: 1px solid white; */
+    fill: white;
+}
+
+.Google-Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.Google-Search-Bar {
+    background-color: #363840;
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Google-Search-Bar-Btn {
+    fill: white;
+    stroke: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Google-Search-Bar-Inp {
+    width: 60%;
+}
+
+.Google-Search-Bar-Inp input {
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: white;
+}
+
+.Google-Search-Btns button {
+    background-color: #303134;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.Google-Seaarch-Footer{
+    background-color: #16171a;
+    width: 100%;
+    text-align: center;padding: 10px;
+    color: white;
+}
