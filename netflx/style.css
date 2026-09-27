@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.HeroSection {
+    background-image: url(./assets/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.HeroSection-Inner {
+    background-color: rgba(0, 0, 0, 0.79);
+    height: 100%;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.Logo {
+    width: 100px;
+}
+
+.SignIn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* font-size: 8px; */
+}
+
+.Headings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.Headings p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.EmailBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.EmailBox input {
+    font-size: small;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.585);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.MoviesCards {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+.MoviesCardsBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MoviesCardsBox span img {
+    border-radius: 5px;
+    width: 100px;
+}
+
+.JoinCards {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+
+}
+
+.JoinCard {
+    background-color: purple;
+    background-image: linear-gradient(to bottom, purple, rgb(151, 0, 128));
+    padding: 10px;
+    border-radius: 10px;
+    width: 25%;
+    /* height: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.JoinCard h2 {
+    font-size: 16px;
+
+}
+
+.JoinCard p {
+    font-size: 10px;
+
+}
+
+.JoinCardIcon {
+    display: flex;
+    justify-content: end;
+  
+
+}
+.JoinCardIcon  svg{
+    display: flex;
+    justify-content: end;
+    height: 40px;
+    width: 40px;
+
+}
