@@ -98,12 +98,57 @@
     margin-bottom: 10px;
 }
 
-.Hero-Section button{
+.Hero-Section button {
     background-color: yellow;
-    border: 5px  solid #ffd000;
+    border: 5px solid #ffd000;
     border-left: 0px;
     border-right: 0px;
     padding: 3px;
     margin-bottom: 15px;
+font-family: 'minecraft';
+    text-transform: uppercase;
+}
 
+.SectionThree {
+    background-image: url(./Pictures/homeSection2.avif);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SectionThreeInner {
+    width: 90%;
+    height: 400px;
+}
+
+.SectionThreeInnerLeft {
+    width: 50%;
+    height: 100%;
+    background-color: #262423;
+}
+.SectionThreeInnerLeft img {
+    width: 100%;
+}
+
+.Minecraft-Heading{
+    color: white;
+    font-family: 'minecraft';
+}
+
+.SectionThreeInnerLeft div{
+    padding: 15px;
+}
+
+.minecraft-btn{
+     background-color: yellow;
+    border: 5px solid #ffd000;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 3px;
+    margin-bottom: 15px;
+    font-family: 'minecraft';
+    text-transform: uppercase;
 }
